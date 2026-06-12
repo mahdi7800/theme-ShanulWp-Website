@@ -1,0 +1,1 @@
+<?php $theme_enable = get_option('_shw_settings_set_general')['sale_plugin_or_themes_enable'];if ($theme_enable === 'yes') : ?> <?php echo do_shortcode('[shwp-shortcode]'); ?><?php endif; ?>
