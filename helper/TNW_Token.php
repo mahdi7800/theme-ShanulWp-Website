@@ -1,0 +1,1 @@
+<?phpclass TNW_Token {	public static function tnw_create_token($email): string {	   $token = date('Ymd').md5($email).rand('10000000','99999999');	 return	$token_link = site_url( 'password-recovery' ) . '?recovery_token=' . $token;	}}

@@ -1,0 +1,1 @@
+<?php get_header(); ?><?php get_template_part('partials/layout/content','content'); ?><?php get_footer(); ?>

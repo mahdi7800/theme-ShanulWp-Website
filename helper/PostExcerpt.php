@@ -1,0 +1,1 @@
+<?phpclass PostExcerpt {     public static function shw_post_excerpt(): string {	     $post_text  = get_the_excerpt();		 return mb_substr($post_text,0,200). ' ' . '....' ;     }	public static function shw_post_excerpt_slider(): string {		$post_text  = get_the_excerpt();		return mb_substr($post_text,0,100). ' ' . '....' ;	}}
