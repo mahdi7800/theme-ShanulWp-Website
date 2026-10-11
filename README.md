@@ -151,3 +151,148 @@
 ```bash
 cd wp-content/themes/
 git clone https://github.com/mahdi7800/theme-ShanulWp-Website.git shanulwp
+```
+Then activate from WordPress dashboard.
+
+سپس از پیشخوان وردپرس قالب را فعال کنید.
+
+---
+
+## ❓ FAQ | سوالات متداول
+
+**Q: Is this theme compatible with WooCommerce?**
+**A:** No. ShanulWp is designed for news, magazine, and educational websites — **not for e-commerce**. WooCommerce can be installed, but the theme does not provide dedicated shop styling.
+
+**س: آیا این قالب با ووکامرس سازگار است؟**
+**ج:** خیر. قالب ShanulWp برای وب‌سایت‌های خبری، مجله‌ای و آموزشی طراحی شده است — **نه برای فروشگاهی**. ووکامرس نصب می‌شود اما قالب استایل اختصاصی برای فروشگاه ارائه نمی‌دهد.
+
+---
+
+**Q: Does this theme require a plugin for Persian dates?**
+**A:** No. ShanulWp has native Jalali date support using the `jdf` library. No external plugin needed.
+
+**س: آیا برای نمایش تاریخ شمسی نیاز به افزونه دارم؟**
+**ج:** خیر. قالب ShanulWp پشتیبانی بومی از تاریخ شمسی (جلالی) با کتابخانه `jdf` دارد. نیازی به هیچ افزونه جانبی نیست.
+
+---
+
+**Q: Does this theme require any plugins at all?**
+**A:** No. ShanulWp works completely standalone. All features (contact form, Jalali dates, user dashboard, like/dislike, bookmark, ads, FAQ, etc.) are built natively into the theme.
+
+**س: آیا قالب نیاز به نصب افزونه خاصی دارد؟**
+**ج:** خیر. قالب ShanulWp کاملاً مستقل کار می‌کند. تمام امکانات (فرم تماس، تاریخ شمسی، پنل کاربری، لایک/دیسلایک، بوکمارک، تبلیغات، سوالات متداول و...) به صورت بومی در قالب پیاده‌سازی شده‌اند.
+
+---
+
+**Q: Does it support RTL?**
+**A:** Yes, native RTL support for Persian language.
+
+**س: آیا از RTL پشتیبانی می‌کند؟**
+**ج:** بله، پشتیبانی بومی از راست به چپ برای زبان فارسی.
+
+---
+
+**Q: Where is Jalali date applied?**
+**A:** Posts, comments, user membership date, archives, widgets, and all date displays.
+
+**س: تاریخ شمسی در کدام بخش‌ها اعمال می‌شود؟**
+**ج:** مطالب، نظرات، تاریخ عضویت کاربران، آرشیو، ویجت‌ها و تمام بخش‌هایی که تاریخ نمایش داده می‌شود.
+
+---
+
+## 📸 Screenshots | تصاویر
+
+1. Home page | صفحه اصلی
+2. WordPress TV section | بخش تلویزیون وردپرس
+3. Educational articles | مقالات آموزشی
+4. User dashboard | داشبورد کاربری
+5. FAQ page | صفحه سوالات متداول
+6. Contact page | صفحه تماس با ما
+7. **Jalali date display in posts & comments** | **نمایش تاریخ شمسی در مطالب و نظرات**
+
+---
+
+## 🧩 Project Structure | ساختار پروژه
+
+```
+theme-ShanulWp-Website/
+├── _inc/           # Theme includes
+├── assets/         # CSS, JS, images
+│   ├── css/
+│   ├── js/
+│   └── images/
+├── class/          # PHP classes
+├── helper/         # Helper functions
+├── lib/            # Third-party libraries
+│   └── jdf/        # Jalali Date library (jdf)
+│       └── jdf.php
+├── loop/           # Loop templates
+├── partials/       # Template parts
+├── 404.php
+├── archive.php
+├── category.php
+├── comments.php
+├── contact-us.php
+├── faq.php
+├── footer.php
+├── functions.php
+├── header.php
+├── index.php
+├── page.php
+├── search.php
+├── single.php
+├── tag.php
+├── style.css
+├── screenshot.png
+├── readme.txt
+└── README.md
+```
+
+### 📚 Third-Party Libraries | کتابخانه‌های جانبی
+
+| Library | Purpose | License |
+|---|---|---|
+| **jdf** | Jalali (Shamsi) date conversion | MIT |
+
+| کتابخانه | کاربرد | لایسنس |
+|---|---|---|
+| **jdf** | تبدیل تاریخ شمسی (جلالی) | MIT |
+
+---
+
+## 🛠 Tech Stack | تکنولوژی‌ها
+
+- WordPress 6.4+
+- PHP 7.4+
+- Bootstrap 5
+- **jdf** (Jalali Date Library)
+
+---
+
+## 🤝 Contributing | مشارکت
+
+Contributions are welcome. Please open an issue first to discuss changes.
+
+از مشارکت استقبال می‌شود. لطفاً ابتدا یک Issue باز کنید تا درباره تغییرات بحث شود.
+
+---
+
+## 📄 License | مجوز
+
+GPLv2 or later — [https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html)
+
+---
+
+## 👨‍💻 Author | توسعه‌دهنده
+
+**Mahdi Davoodi** | **مهدی داودی**
+- GitHub: [@mahdi7800](https://github.com/mahdi7800)
+- Website: [shanulwp.ir](https://shanulwp.ir)
+- Support: support@shanulwp.ir
+- Ads: adv@shanulwp.ir
+
+---
+
+© All rights reserved. | ShanulWp Theme | v1.0.0
+
+© تمامی حقوق محفوظ است. | قالب شانول وردپرس | نسخه ۱.۰.۰
