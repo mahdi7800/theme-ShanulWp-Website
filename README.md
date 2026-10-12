@@ -290,6 +290,10 @@ GPLv2 or later — [https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.o
 - Website: [shanulwp.ir](https://shanulwp.ir)
 - Support: support@shanulwp.ir
 - Ads: adv@shanulwp.ir
+- Donate: [Donate](https://daramet.com/d_mahdi47?webintent&donate=200000
+)
+
+<img width="256" height="256" alt="d_mahdi47-200000-QRcode" src="https://github.com/user-attachments/assets/364908f1-9498-4e13-8cfa-115fe3a934ef" />
 
 ---
 
